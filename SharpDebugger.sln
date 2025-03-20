@@ -14,9 +14,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.gitignore = .gitignore
 		LICENSE = LICENSE
 		README.md = README.md
+		version.json = version.json
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartDebugger", "src\SmartDebugger\SmartDebugger.csproj", "{A07DD986-D074-40B5-9311-9E871446D600}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHub Actions", "GitHub Actions", "{240B510F-A45E-43EE-9377-8A2CCE4407ED}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet-dev.yml = .github\workflows\dotnet-dev.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
