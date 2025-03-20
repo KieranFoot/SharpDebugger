@@ -1,0 +1,20 @@
+// Methods
+CreateProcess
+CloseHandle
+GetProcessId
+GetThreadId
+SuspendThread
+ResumeThread
+WaitForDebugEvent
+ContinueDebugEvent
+GetFinalPathNameByHandleW
+ReadProcessMemory
+WriteProcessMemory
+
+// Constants
+WIN32_ERROR
+MAX_PATH
+DBG_CONTINUE
+DBG_EXCEPTION_HANDLED
+DBG_EXCEPTION_NOT_HANDLED
+STATUS_BREAKPOINT
